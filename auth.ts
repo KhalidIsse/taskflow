@@ -22,7 +22,7 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
       return token;
     },
     session({ session, token }) {
-      if (token.uid) session.user.id = token.uid;
+      if (typeof token.uid === "string") session.user.id = token.uid;
       return session;
     },
   },
