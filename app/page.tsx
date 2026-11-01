@@ -46,7 +46,7 @@ export default async function Home() {
 
       <section className="grid flex-1 items-center gap-12 py-12 md:grid-cols-2">
         <div>
-          <h1 className="font-display text-5xl font-bold leading-[1.05] tracking-tight md:text-6xl">
+          <h1 className="font-display text-5xl font-bold leading-[1.05] tracking-tight md:text-7xl">
             Drag work from to do to done.
           </h1>
           <p className="mt-5 max-w-md text-lg text-muted">
